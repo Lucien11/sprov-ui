@@ -54,12 +54,7 @@ public class InboundsController {
      */
 //    @ResponseBody
 //    @PostMapping("add")
-    public Msg add(String listen,
-                   int port,
-                   String protocol,
-                   String settings,
-                   String streamSettings,
-                   String remark) {
+    public Msg add(String listen, int port, String protocol, String settings, String streamSettings, String remark) {
         JSONObject inbound;
         try {
             inbound = getInbound(listen, port, protocol, settings, streamSettings, remark);

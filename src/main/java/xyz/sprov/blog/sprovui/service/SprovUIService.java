@@ -45,7 +45,7 @@ public class SprovUIService {
     }
 
     private String getLastDownloadUrl() {
-        return "https://github.com/sprov065/sprov-ui/releases/download/" + lastVersion + "/sprov-ui-" + lastVersion + ".jar";
+        return "https://github.com/Lucien11/sprov-ui/releases/download/" + lastVersion + "/sprov-ui-" + lastVersion + ".jar";
     }
 
     private void refreshLastVersion() throws Exception {

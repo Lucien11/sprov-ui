@@ -3,7 +3,7 @@
 <el-dialog th:fragment="account_dialog"
            :title="inDL.mode === 'add' ? '添加账号' : '修改账号'"
            :visible.sync="inDL.visible"
-           width="300px" @close="clearValidates">
+           width="700px" @close="clearValidates">
     <!-- 基本 -->
     <el-form :model="form" :rules="formRules"
              ref="inForm" size="small"

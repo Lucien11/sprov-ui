@@ -153,6 +153,7 @@ public class V2rayConfigService {
             }
         }
         inbounds.add(inbound);
+
         writeConfig(config);
     }
 

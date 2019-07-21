@@ -445,7 +445,7 @@ let app = new Vue({
                 .then(_ => {
                     execute(callback, true);
                 })
-                .catch(_ => {
+        .catch(_ => {
                     execute(callback, false);
                 });
         },
@@ -558,7 +558,7 @@ let app = new Vue({
             for (let i in inbounds) {
                 this.setDefaultInbound(inbounds[i]);
             }
-            this.inbounds = inbounds;
+            this.inbounds = inbounds.reverse();
         },
         setDefaultInbound: function (inbound) {
             this.setDefaultIfNone(inbound, defaultInbound);
