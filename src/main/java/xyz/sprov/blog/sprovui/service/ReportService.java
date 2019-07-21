@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ReportService {
 
-    private static final String REPORT_URL = "https://blog.sprov.xyz/sprov-ui/report";
+    /*private static final String REPORT_URL = "https://blog.sprov.xyz/sprov-ui/report";
 
     private V2rayConfigService v2rayConfigService = Context.v2rayConfigService;
 
@@ -42,6 +42,6 @@ public class ReportService {
                 HttpUtil.post(REPORT_URL, map);
             } catch (Exception ignore) {}
         }
-    }
+    }*/
 
 }
