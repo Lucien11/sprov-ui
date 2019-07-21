@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>xyz.sprov.ui</groupId>
     <artifactId>sprov-ui</artifactId>
-    <version>1.1.0</version>
+    <version>3.2.0</version>
     <name>sprov-ui</name>
     <description>一个支持多协议多用户的v2ray Web面板</description>
 
