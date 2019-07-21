@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 
 public class SprovUIService {
 
-    private static final String GITHUB_LAST_RELEASE_URL = "https://github.com/sprov065/sprov-ui/releases/latest";
+    private static final String GITHUB_LAST_RELEASE_URL = "https://github.com/Lucien11/sprov-ui/releases/latest";
 
     private String currentVersion = Config.currentVersion();
 
