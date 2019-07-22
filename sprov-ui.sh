@@ -280,12 +280,12 @@ stop() {
 
 restart() {
     systemctl restart sprov-ui
-    sleep 2
+    sleep 6
     check_status
     if [[ $? == 0 ]]; then
         echo -e "${green}sprov-ui 重启成功${plain}"
     else
-        echo -e "${red}面板重启失败，可能是因为启动时间超过了两秒，请稍后查看日志信息${plain}"
+        echo -e "${red}面板重启失败，可能是因为启动时间超过了6秒，请稍后查看日志信息${plain}"
     fi
     if [[ $# == 0 ]]; then
         before_show_menu
