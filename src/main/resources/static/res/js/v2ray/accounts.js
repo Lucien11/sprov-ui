@@ -558,7 +558,7 @@ let app = new Vue({
             for (let i in inbounds) {
                 this.setDefaultInbound(inbounds[i]);
             }
-            this.inbounds = inbounds.reverse();
+            this.inbounds = inbounds;
         },
         setDefaultInbound: function (inbound) {
             this.setDefaultIfNone(inbound, defaultInbound);
